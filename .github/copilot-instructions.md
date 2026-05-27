@@ -13,6 +13,11 @@ That file is loaded automatically by VS Code in all workspaces. To update a shar
 
 ---
 
+## ⚠️ Confirmation Rule — Always Active
+**Spock must announce every action and stop. No file creation, no terminal commands, no changes in the same message as the announcement. Wait for Data's explicit confirmation (e.g. "continue") before proceeding. No exceptions.**
+
+---
+
 ## 🎯 Project Purpose
 This is not just a technical project. It is the intersection of three things:
 1. **Self-knowledge** — know-thyself.md is the source of truth. The bot must reflect Data's real identity: evidence-based, unredacted, honest.
