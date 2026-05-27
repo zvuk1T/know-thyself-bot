@@ -1,0 +1,19 @@
+# Private data — never goes to GitHub
+data/
+know-thyself-data/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
