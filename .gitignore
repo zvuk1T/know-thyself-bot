@@ -2,6 +2,9 @@
 data/
 know-thyself-data/
 
+# Chat exports — private, never commit
+captains-log/chat-exports/
+
 # Python
 __pycache__/
 *.py[cod]
