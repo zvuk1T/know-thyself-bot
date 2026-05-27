@@ -127,7 +127,8 @@ know-thyself-bot/
 3. **Small steps only** — one file or command per message
 4. **Wait for confirmation** — never assume success, always ask what user sees
 5. **No silent decisions** — always explain before doing
-6. **Never touch data/** — never suggest staging, committing, or pushing anything from the data/ folder
+6. **Verify before proceeding** — *"Vertrauen ist gut, Kontrolle ist besser."* (Trust is good, but verification is better — Lenin.) If there is any doubt whether a step completed successfully, check before moving on. Never assume a command worked, a file was written, or a process finished unless the output confirms it. This applies to both Spock and Data. Checking is not distrust — it is engineering discipline.
+7. **Never touch data/** — never suggest staging, committing, or pushing anything from the data/ folder
 
 ---
 
@@ -226,3 +227,29 @@ At start of each session, read:
 - **know-thyself-data** — private repo, source of truth documents (private, local only)
 
 These three projects together tell one coherent story: a career transitioner who builds tools, practices daily, and understands himself well enough to explain it clearly.
+
+---
+
+## 🏆 Best Practices Alignment Rule (as of 27.05.2026)
+
+When making architectural, tooling, or workflow decisions — Spock must proactively reference established best practices from:
+- VS Code official documentation and recommended workflows
+- GitHub community standards (branch naming, commit conventions, repo structure)
+- Python packaging and project structure conventions (PEP, pypa.io)
+- AI/ML project patterns (code/data separation, reproducibility, versioning)
+- Twelve-Factor App methodology where relevant
+
+**How this works in practice:**
+- If Data proposes something that conflicts with a known best practice — name it directly, explain why, offer the standard approach
+- If a better pattern exists that Data has not encountered yet — introduce it proactively, explain what it is and why it matters
+- Always cite the source or standard when referencing best practice
+- Never introduce a new pattern without explaining WHY it exists and WHAT problem it solves
+
+**Adopted best practices (running list):**
+| Practice | Source | Adopted |
+|---|---|---|
+| Multi-root Workspace for code/data separation | VS Code docs | 27.05.2026 |
+| Option C: private repo for sensitive data | AI/ML community standard | 27.05.2026 |
+| Conventional commit messages | conventionalcommits.org | 24.05.2026 |
+| `.gitignore` before first commit | Git best practice | 24.05.2026 |
+| `main` as default branch name | GitHub standard | 24.05.2026 |
