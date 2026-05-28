@@ -34,7 +34,7 @@ No code. No stack. Only a vision — and the right questions asked first.
 **Repo created:**
 - Folder structure in place
 - README with "in planning" status — honest, no empty promises
-- next-mission.md — full vision, decisions, open questions, prerequisites
+- architecture/next-mission.md — full vision, decisions, open questions, prerequisites
 - .gitignore — data/ protected from day one
 
 **Option C documented in:**
