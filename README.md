@@ -72,4 +72,3 @@ See `docs/data-privacy-architecture.md` for full explanation.
 
 ---
 
-*All work completed alongside full-time employment — demonstrating consistent self-discipline and commitment to career transition.*
